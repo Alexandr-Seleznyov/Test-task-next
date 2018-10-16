@@ -1,0 +1,165 @@
+.task{
+    padding-bottom: 15px;
+}
+
+.task-fio {
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.task-position {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    color: #777;
+}
+
+.task-date {
+    padding-right: 20px;
+    font-size: 10px;
+    color: #777;
+}
+
+.task-salary {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.panel-group .btn {
+    margin-left: 10px;
+}
+
+div[class^="wrapper-childs-"] {
+    margin: 0 10px;
+}
+
+#li1 a,
+#li2 a {
+    font-weight: bold;
+    font-size: 18px;
+    color: darkred;
+}
+
+#parents-search {
+    margin-bottom: 10px;
+}
+
+.table .btn {
+    margin-left: 15px;
+}
+
+.btn#image-parents {
+    padding: 0 12px;
+    margin-bottom:10px;
+}
+
+.modal-header .close {
+    font-size: 40px;
+    margin-top: -12px;
+}
+
+.panel-heading .btn {
+    height: 25px;
+    width: 179px;
+    padding: 0;
+    background: rgba(0,0,0, .05);
+}
+
+.panel .panel-heading {
+    /*padding-top: 5px;*/
+    height: 40px;
+    padding: 0 15px;
+    margin-bottom: -7px;
+    cursor: grab;
+}
+
+.container .panel.panel-default {
+    padding-top: 8px;
+    overflow: hidden;
+}
+
+.container .panel-group {
+    margin-bottom: 5px;
+}
+
+.container .list-group {
+    margin-bottom: 10px;
+}
+
+.container .list-group-item {
+    padding: 7px 7px 4px 30px;
+}
+
+.container .list-group-item,
+.panel .panel-default,
+.container .panel-default>.panel-heading {
+    background: rgba(0,0,255, .005);
+}
+
+
+.preloader {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+    perspective: 1600px;
+    perspective-origin: 20% 50%;
+    transition: 0.5s all;
+    opacity: 1;
+}
+
+.spinner {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #f3f3f3;
+    border-top: 3px solid #0088cf;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: spin 1s infinite linear;
+}
+
+.preloader.fade {
+    opacity: 0;
+}
+
+.b-ico-preloader {
+    /*background: url(http://...logo.svg);*/
+    background-size: cover;
+    width: 52px;
+    height: 67px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: ico 5s infinite linear;
+    transform-style: preserve-3d;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes ico {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
